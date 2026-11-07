@@ -5,16 +5,17 @@ __pycache__/
 *.so
 .pytest_cache/
 
+# Presentations, video scripts, and standalone report files (submitted separately)
+*.pptx
+*report*.md
+REPORT.md
+video_script.md
+
 # Large dataset files & pretrained embeddings (>100MB exceeds GitHub limits)
 data/glove/*.txt
 data/glove/*.zip
 *.zip
 
-# PyTorch checkpoints (can be re-trained or released in GitHub releases if needed)
-# Uncomment if you prefer not to commit model weights:
-# results/*.pt
-
 # OS files
 .DS_Store
 Thumbs.db
-
