@@ -1,0 +1,6 @@
+torch>=2.0
+datasets>=2.14
+seqeval>=1.2.2
+numpy
+tqdm
+pytest

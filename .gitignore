@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large dataset files & pretrained embeddings (>100MB exceeds GitHub limits)
+data/glove/*.txt
+data/glove/*.zip
+*.zip
+
+# PyTorch checkpoints (can be re-trained or released in GitHub releases if needed)
+# Uncomment if you prefer not to commit model weights:
+# results/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
